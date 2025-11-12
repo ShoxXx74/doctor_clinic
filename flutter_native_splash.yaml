@@ -1,0 +1,17 @@
+flutter_native_splash:
+  # 🖼️ لون الخلفية أثناء شاشة الإقلاع
+  color: "#FFFFFF" # يمكنك تغييره حسب رغبتك
+
+  # 🧩 مسار الصورة (ضع الصورة في assets/images/)
+  image: assets/images/splash.png
+
+  # ⚙️ إعدادات خاصة بأندرويد 12 وما بعده
+  android_12:
+    image: assets/images/splash.png
+    color: "#FFFFFF"
+    icon_background_color: "#FFFFFF"
+
+  # 🧠 إعدادات عامة
+  android: true
+  ios: true
+  web: false
